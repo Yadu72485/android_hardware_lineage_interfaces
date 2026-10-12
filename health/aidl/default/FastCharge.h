@@ -7,6 +7,24 @@
 #pragma once
 
 #include <aidl/vendor/lineage/health/BnFastCharge.h>
+#include <optional>
+#include <string>
+
+#ifndef HEALTH_FAST_CHARGE_NODE
+#define HEALTH_FAST_CHARGE_NODE std::nullopt
+#endif
+
+#ifndef HEALTH_FAST_CHARGE_VALUE_NONE
+#define HEALTH_FAST_CHARGE_VALUE_NONE std::nullopt
+#endif
+
+#ifndef HEALTH_FAST_CHARGE_VALUE_FAST_CHARGE
+#define HEALTH_FAST_CHARGE_VALUE_FAST_CHARGE std::nullopt
+#endif
+
+#ifndef HEALTH_FAST_CHARGE_VALUE_SUPER_FAST_CHARGE
+#define HEALTH_FAST_CHARGE_VALUE_SUPER_FAST_CHARGE std::nullopt
+#endif
 
 namespace aidl {
 namespace vendor {
